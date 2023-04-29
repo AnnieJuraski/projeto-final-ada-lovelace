@@ -43,11 +43,13 @@ body {
   flex-direction: row;
   background-color: var(--headerColor);
   padding: 0 30px;
-  height: 120px;
+  height: 160px;
   align-items: center;
   justify-content: space-between;
   
 }
+
+
 
 
 ul {
@@ -66,8 +68,7 @@ ul {
   font-size: 30px;
 }
 
-
-
+/* C style for togggle theme button */
 
 
 #toggle {
@@ -77,9 +78,9 @@ ul {
   border-radius: 60px;
   background: #222;
   transition: 0.5s;
-  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.6),
-              inset 0 4px 4px rgba(0, 0, 0, 0.9),
-              inset 0 -3px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.4),
+              inset 0 4px 4px rgba(0, 0, 0, 0.35),
+              inset 0 -1px 3px rgba(0, 0, 0, 0.6);
   cursor: pointer;
 }
 
@@ -148,42 +149,78 @@ ul {
 
 
 
-.container {
+.conteudo {
   left: 0;
   right: 0;
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  padding: 100px 0 0 0;
+  padding: 20px 0 0 0;
   background-color: var(--bgColor);
-  height: 800px;
+  height: 900px;
   display: flex;
   flex-direction: column;
 }
 
 
-.carousel {
-  margin: auto;
+
+.wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -150px;
+  height: 100%;
+  position: relative;
   overflow: hidden;
 }
 
-.info {
-  text-align: center;
-  margin: 10px;
-  font-size: 25px;
-  line-height: 1.5em;
-  display: none;
-  color: var(--textColor);
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 60px;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.slider.active {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.slider.next {
+  transform: translateX(-100%);
+}
+
+.slider.prev {
+  transform: translateX(100%);
 }
 
 
-.info.ativa{
-  position: relative;
-  display: inline-block;
-  width: 60%; 
-  margin: 3px auto;
-  position: relative;
+
+
+.quote {  
+  line-height: 1.1em;
+  font-size: 25px;
+  font-style: italic;
+
+}
+
+
+.info {
+  width: 50%;
+  font-size: 32px;
+  line-height: 1.3em;
+  color: var(--textColor);
+  text-align: justify;
+}
+
+section .title{
+  text-align: center;
 }
 
 .title,a {
@@ -193,39 +230,26 @@ ul {
 
 .title {
   font-size: 45px;
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
   color: var(--mainColor);
 }
 
-.arrow-left,
-.arrow-right {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: auto;
-  bottom: 0;
-  color: var(--arrowColor);
-  background: transparent;
-  cursor: pointer;
-  border: none;
-}
 
 
-.arrow-right {
-  right: 0;
-  left: auto;
 
-}
 
 
 .btn-container {
   display: flex;
-  position: relative;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 30px;
   flex-direction: row;
   align-content: center;
   justify-content: center;
+  
   gap: 20px;
-  bottom: 30px;
 }
 
 
@@ -240,7 +264,7 @@ ul {
 
 .botao-info.ativo {
   background-color: var(--mainColor);
-  box-shadow: 0px 0px 20px var(--mainColor);
+  box-shadow: 0px 0px 20px var(--glow);
 }
 
 
@@ -292,4 +316,14 @@ ul {
 
 .link:hover{
   transform: scale(1.5);
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
