@@ -5,8 +5,6 @@
 <br>
 <br>
 <br>
-<br>
-
 <h2>Layout</h2>
 <br>
 Pensei nesse projeto e fiz um protótipo de baixa fidelidade no Canvas. Então aos poucos fui melhorando ele até chegar no resultado final
