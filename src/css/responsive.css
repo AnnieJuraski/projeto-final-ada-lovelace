@@ -1,0 +1,407 @@
+@media (max-width: 2200px) {
+
+    body {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .info {
+        width: 50%;
+        font-size: 28px;
+        line-height: 1.3em;
+    }
+}
+
+
+
+@media (max-width: 1700px) {
+
+    body {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .info {
+        width: 50%;
+        font-size: 26px;
+        line-height: 1.3em;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+}
+
+
+@media (max-width: 1400px) {
+
+    body {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .info {
+        width: 50%;
+        font-size: 24px;
+        line-height: 1.3em;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .logoAda {
+        height: 75px;
+    }
+
+    .img-container {
+        height: 700px;
+        margin: auto;
+        width: 60%;
+    }
+
+    .image {
+        display: none;
+        height: 100%;
+        margin: auto;
+        width: auto;
+        overflow: hidden;
+        gap: 20px;
+        animation: mudarImagem 2s;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+
+    body {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .info {
+        width: 50%;
+        font-size: 22px;
+        line-height: 1.3em;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .logoAda {
+        height: 75px;
+    }
+
+    .nav-link {
+        margin: 0 30px;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 1050px) {
+
+    body {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .info {
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.3em;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .logoAda {
+        height: 75px;
+    }
+
+    .nav-link {
+        margin: 0 30px;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 970px) {
+
+    body {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .info {
+        width: 50%;
+        font-size: 20px;
+        line-height: 1.3em;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .logoAda {
+        height: 65px;
+    }
+
+    .nav-link {
+        margin: 0 20px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+@media (max-width: 850px) {
+
+    body {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .info {
+        width: 50%;
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+
+    .title {
+        font-size: 35px;
+        line-height: 1.3em;
+    }
+
+    .logoAda {
+        height: 65px;
+    }
+
+    .nav-link {
+        margin: 0 10px;
+        font-size: 15px;
+    }
+
+    .footer {
+        box-sizing: border-box;
+        background-color: var(--headerColor);
+        width: 100%;
+        height: 300px;
+        position: relative;
+        bottom: 0;
+        z-index: 3;
+    }
+
+    .social{
+        margin: auto;
+        right: 0;
+    }
+  
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        gap: 120px;
+        padding: 10px;
+    }
+
+    .icones-container {
+        justify-content: center;
+        align-items: center;
+        margin: auto;;
+    }
+
+    .about {
+        width: 80%;
+    }
+
+    .sobre.title{
+        text-align: center;
+    }
+   
+
+}
+
+
+
+
+
+@media (max-width: 650px) {
+
+    body {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .social{
+        margin: auto;
+        right: 0;
+    }
+
+    .info {
+        width: 50%;
+        font-size: 13px;
+        line-height: 1.3em;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .logoAda {
+        height: 40px;
+    }
+
+    .nav-link {
+        margin: 0 10px;
+        font-size: 15px;
+    }
+
+
+    .footer {
+        box-sizing: border-box;
+        background-color: var(--headerColor);
+        width: 100%;
+        height: 300px;
+        position: relative;
+        bottom: 0;
+        z-index: 3;
+        padding: 20px;
+    }
+
+    .social {
+        margin: auto;
+        position: relative;
+    }
+
+    .arrow-left,
+    .arrow-right {
+        height: 50px;
+        width: 50px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        gap: 120px;
+        padding: 10px;
+    }
+
+    .icones-container {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    
+   
+
+    .quote {
+        line-height: 1.1em;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+}
+
+
+@media (max-width: 475px) { 
+
+   
+
+    .info {
+        width: 50%;
+        font-size: 14px;
+        line-height: 1.1em;
+    }
+
+    .title {
+        font-size: 35px;
+        line-height: 1.3em;
+    }
+
+    .logoAda {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #toggle{
+        margin: 10px;
+    }
+
+    .nav-link {        
+        margin: 30px;
+        font-size: 15px;
+    }
+
+    .image{
+        height: 550px;
+        width: auto;
+    }  
+
+
+    .footer {
+        box-sizing: border-box;
+        background-color: var(--headerColor);
+        width: 100%;
+        height: 300px;
+        position: relative;
+        bottom: 0;
+        z-index: 3;
+        padding: 20px;
+    }
+
+    .social {
+        margin: auto;
+        position: relative;
+    }
+
+    .arrow-left,
+    .arrow-right {
+        height: 50px;
+        width: 50px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        gap: 120px;
+        padding: 10px;
+    }
+
+    .icones-container {
+        justify-content: center;
+        align-items: center;
+        margin: auto;;
+    }
+
+    .about {
+        width: 80%;
+    }
+
+    .quote {
+        line-height: 1.1em;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+}

@@ -12,6 +12,7 @@ let activeIndex = 0;
 setActiveSlider(0);
 
 
+
 next.addEventListener('click',() => {nextSlider()});
 previous.addEventListener('click',() => {prevSlider()});
 
@@ -21,15 +22,20 @@ function setActiveSlider(index) {
   sliders[index].classList.add('active');
   activeIndex = index;
   deactivateButtons();
+  
+  sliders[index + 1].classList.add('next');
 }
+
+
+
 
 
 function nextSlider (repeat) {
   const nextIndex = (activeIndex + 1);
-  const prevIndex = (activeIndex - 1);
+  const prevIndex = (activeIndex - 1); 
 
   sliders[activeIndex].classList.add('prev');
-  sliders[activeIndex].classList.remove('active');
+  sliders[activeIndex].classList.remove('active');  
   sliders[nextIndex].classList.remove('next');
   sliders[nextIndex].classList.add('active');  
   
@@ -44,7 +50,7 @@ function nextSlider (repeat) {
 function prevSlider () {
   const nextIndex = (activeIndex + 1);
   const prevIndex = (activeIndex - 1);
-
+ 
   sliders[activeIndex].classList.add('next');
   sliders[activeIndex].classList.remove('active');
   sliders[prevIndex].classList.remove('prev');     
@@ -106,12 +112,13 @@ function getActiveIndex() {
     if (sliders[i].classList.contains('active')) {
       return i;
     }
-  } // no active slider found
+  } 
 }
 
 
 
 function deactivateButtons() {
+ 
 
   if (getActiveIndex() == 0){
     previous.classList.add('hidden')
@@ -140,6 +147,8 @@ function repeatFunc (funcName, times){
   funcName();
  }
 }
+
+
 
 
 

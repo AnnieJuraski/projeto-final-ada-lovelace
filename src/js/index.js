@@ -4,7 +4,7 @@ let theme = localStorage.getItem('theme');
 
 if (theme != null){
     html.classList.toggle('light-theme');
-    toggle.classList.toggle('active'); 
+    toggle.classList.toggle('active-toggle'); 
 }
 
 
@@ -13,7 +13,7 @@ if (theme != null){
 
 
 toggle.addEventListener('click', function () {
-    toggle.classList.toggle('active');    
+    toggle.classList.toggle('active-toggle');    
     changeTheme();
 })
 

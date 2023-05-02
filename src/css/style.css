@@ -26,14 +26,12 @@
 
 
 
-*{
-  transition: all .5s ease-in-out;
-
-}
 
 body {
   font-family: 'Lato', sans-serif;
   background-color: var(--headerColor);
+  width: 100%;
+  overflow: hidden;
   
 }
 
@@ -67,7 +65,7 @@ ul {
   font-size: 30px;
 }
 
-/* C style for togggle theme button */
+/* CSS style for togggle theme button */
 
 #toggle {
   position: relative;
@@ -82,14 +80,11 @@ ul {
   cursor: pointer;
 }
 
-#toggle.active {
+#toggle.active-toggle {
   background: #fff;
   box-shadow: inset 0 2px 15px rgba(0, 0, 0, 0.2),
     inset 0 2px 4px rgba(0, 0, 0, 0.6),
     inset 0 -2px 3px rgba(0, 0, 0, 0.2);
-
-
-
 }
 
 #toggle .indicator {
@@ -108,7 +103,7 @@ ul {
   z-index: 1;
 }
 
-#toggle.active .indicator {
+#toggle.active-toggle .indicator {
   left: 60px;
   background: linear-gradient(to bottom, #ececec, #f9f9f9);
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4),
@@ -116,10 +111,7 @@ ul {
     inset 0 -10px 5px rgba(255, 255, 255, 0.8),
     inset 0px 8px 8px rgba(255, 255, 255, 0.4),
     inset 0 -2px 3px rgba(255, 255, 255, 0.3);
-
 }
-
-
 
 .svg {
   position: absolute;
@@ -144,7 +136,6 @@ ul {
 
 
 
-
 .conteudo {
 
   width: 100%;
@@ -154,8 +145,12 @@ ul {
   background-color: var(--bgColor);
   height: 900px;
   top: 0;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+
 
 .arrow-left,
 .arrow-right {
@@ -174,11 +169,13 @@ ul {
   pointer-events: auto;
 }
 
-
 .arrow-right {
   right: 40px;
   left: auto;
+}
 
+.hidden {
+  display: none;
 }
 
 .gradient-l,
@@ -197,19 +194,13 @@ ul {
   left: auto;
 }
 
-
-
 .gradient-l:hover {
   box-shadow: inset 40px 20px 30px rgba(0, 0, 0, 0.6); 
-
 }
 
 .gradient-r:hover {
   box-shadow: inset -40px 20px 30px rgba(0, 0, 0, 0.6);
 }
-
-
-
 
 
 
@@ -223,17 +214,7 @@ ul {
   margin: auto;
   width: 60%;
   overflow: hidden;
-  left: 10%
-}
-
-.image{
-  opacity: 1;
-  height: 100%;
   
-}
-
-img{
-  object-fit: cover;
 }
 
 .slider {
@@ -261,12 +242,56 @@ img{
 
 .slider.prev {
   transform: translateX(-100%);
-
 }
 
-.hidden {
-  display: none;
+
+.img-container{  
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  margin: auto;
+  width: 60%;
+  overflow: hidden;
+  left: 10%;
+  top: 25px;
 }
+
+.image{
+  display: none;  
+  margin: auto;
+  height: 800px;
+  overflow: hidden;
+  gap: 20px;
+  animation: mudarImagem 2s;
+  text-align: center;
+}
+
+.image.active{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img{
+  bottom: 0;
+  width: 80%; 
+  height: 80%; 
+  object-fit: contain;
+}
+
+.img-desc{
+  color: var(--textColor);
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -274,7 +299,6 @@ img{
   line-height: 1.1em;
   font-size: 25px;
   font-style: italic;
-
 }
 
 
@@ -312,7 +336,7 @@ a {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  bottom: 80px;
+  bottom: 50px;
   flex-direction: row;
   align-content: center;
   justify-content: center;
@@ -327,11 +351,17 @@ a {
   border: 2px solid transparent;
   cursor: pointer;
   border-color: var(--buttonStroke);
-  transition: all 0.5s ease-in-out;
-
+  transition: all 0.3s ease-in-out;
+  background: var(--lightGrey);
 }
 
-.ativo {
+.botao-info:hover{
+  background: rgba(255,120,255,1);
+  box-shadow: 0px 0px 20px rgba(var(--glow),0.5);
+}
+
+.botao-info.ativo {
+  
   background-color: var(--mainColor);
   box-shadow: 0px 0px 20px var(--glow);
 }
@@ -383,6 +413,7 @@ a {
   flex-direction: row;
   top: 20px;
   gap: 30px;
+  box-sizing: border-box;
 }
 
 
@@ -396,6 +427,17 @@ a {
 
 .link:hover {
   transform: scale(1.5);
+}
+
+
+
+@keyframes mudarImagem{
+  from{
+      opacity:0.2;
+  }
+  to{
+      opacity: 1;
+  }
 }
 
 
