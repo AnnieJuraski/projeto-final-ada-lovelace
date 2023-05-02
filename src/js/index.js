@@ -19,7 +19,7 @@ toggle.addEventListener('click', function () {
 
 function changeTheme(){
     if (theme != null){
-        localStorage.removeItem('theme');
+        localStorage.removeItem('theme', 'light-theme');
     }else{
         localStorage.setItem('theme', 'light-theme');
     }
