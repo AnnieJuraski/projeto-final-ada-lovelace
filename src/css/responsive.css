@@ -1,9 +1,6 @@
 @media (max-width: 2200px) {
 
-    body {
-        width: 100%;
-        overflow: hidden;
-    }
+ 
 
     .info {
         width: 50%;
@@ -16,10 +13,7 @@
 
 @media (max-width: 1700px) {
 
-    body {
-        width: 100%;
-        overflow: hidden;
-    }
+   
 
     .info {
         width: 50%;
@@ -35,10 +29,6 @@
 
 @media (max-width: 1400px) {
 
-    body {
-        width: 100%;
-        overflow: hidden;
-    }
 
     .info {
         width: 50%;
@@ -75,10 +65,7 @@
 
 @media (max-width: 1200px) {
 
-    body {
-        width: 100%;
-        overflow: hidden;
-    }
+  
 
     .info {
         width: 50%;
@@ -109,10 +96,6 @@
 
 @media (max-width: 1050px) {
 
-    body {
-        width: 100%;
-        overflow: hidden;
-    }
 
     .info {
         width: 50%;
@@ -137,10 +120,7 @@
 
 @media (max-width: 970px) {
 
-    body {
-        width: 100%;
-        overflow: hidden;
-    }
+   
 
     .info {
         width: 50%;
@@ -167,10 +147,7 @@
 
 @media (max-width: 850px) {
 
-    body {
-        width: 100%;
-        overflow: scroll;
-    }
+   
 
     .info {
         width: 50%;
@@ -242,10 +219,7 @@
 
 @media (max-width: 650px) {
 
-    body {
-        width: 100%;
-        overflow: hidden;
-    }
+    
 
     .social {
         margin: auto;
