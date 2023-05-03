@@ -103,6 +103,7 @@ button.forEach((botao, indice) => {
 })
 
 
+
 function getActiveIndex() {
   for (let i = 0; i < sliders.length; i++) {
     if (sliders[i].classList.contains('active')) {
