@@ -23,7 +23,7 @@ const disableLightMode = () => {
 // start things off with it on
 if (lightMode === 'enabled') {
   enableLightMode();
-  toggle.classList.toggle('active-toggle');
+  toggle.classList.toggle('active-toggle'); //adicionado toggle do botão para o botão não ficar com estados invertidos
 }
 
 // When someone clicks the button

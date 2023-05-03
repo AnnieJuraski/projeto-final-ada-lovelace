@@ -12,20 +12,17 @@ Pensei nesse projeto e fiz um protótipo de baixa fidelidade no Canvas. Então a
 <br>
 <h2>HTML</h2>
 <br>
-<br>
 No HTML estruturei o site em 3 seções: FGooter, conteúdo/main e header. Adicionei classes para criar um slider de informações com JS puro.
 <br>
 <br>
 <br>
 <h2>CSS</h2>
 <br>
-<br>
 Estilizei o site com o tema escuro como padrão, usando variáveis do CSS para realizar a mudança de tema, ao clicar no botão usando JavaScript. Criei um CSS para responsividade do site e outro para resetar as configurações do navegador.
 <br>
 <br>
 <br>
 <h2>JavaScript</h2>
-<br>
 <br>
 O mais desafiador. Criei uma lógica para armazenar a escolha de tema no Local Storage e adicionei funcionalidades para que quando clicasse na div id #toggle o tema mude. Também criei dois efeitos de slides, um para a galeria e utro para a biografia.
 <br>
