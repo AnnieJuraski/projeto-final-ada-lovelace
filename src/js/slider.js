@@ -10,9 +10,6 @@ const next = document.getElementById('next');
 let activeIndex = 0;
 
 setActiveSlider(0);
-
-
-
 next.addEventListener('click',() => {nextSlider()});
 previous.addEventListener('click',() => {prevSlider()});
 
@@ -27,10 +24,7 @@ function setActiveSlider(index) {
 }
 
 
-
-
-
-function nextSlider (repeat) {
+function nextSlider () {
   const nextIndex = (activeIndex + 1);
   const prevIndex = (activeIndex - 1); 
 
@@ -63,6 +57,8 @@ function prevSlider () {
   setActiveSlider(prevIndex)
 }
 
+
+//O clique calcula a diferença entre o indice do botão calculado e o indice ativo da informação, e retorna um valor referente ao resultado
 button.forEach((botao, indice) => {
   botao.addEventListener('click', ()=>{
      difference = (activeIndex - indice);
