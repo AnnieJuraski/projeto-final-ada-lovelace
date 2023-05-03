@@ -4,7 +4,6 @@
 <p> Projeto desenvolvido como projeto final do curso de capacitação Mais Mulheres em Tech, oferecido pela Womakers Code. O objetivo foi escolher uma mulher importante na área da tecnologia e fazer um site sobre ela. Eu escolhi a primeira programadora da história, Ada Lovelace<p>
 <br>
 <br>
-<br>
 <h2>Layout</h2>
 <br>
 Pensei nesse projeto e fiz um protótipo de baixa fidelidade no Canvas. Então aos poucos fui melhorando ele até chegar no resultado final
