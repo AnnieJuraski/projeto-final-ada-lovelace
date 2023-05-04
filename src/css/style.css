@@ -147,21 +147,25 @@ ul {
   display: flex;
   justify-content: center;
   z-index: 2;
-  height: 400px;
+  height: auto;
+  border: 2px solid saddlebrown;
+  position: relative;
 }
 
 .p-ada{
+  
   margin: auto;
   height: 600px;
 }
 
 .wrapper{   
-  height: 850px;
-  padding: 25px;
+  height: 700px;
+  padding: 5px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 3px solid pink;
 }
 
 .conteudo{
@@ -234,8 +238,8 @@ ul {
   display: flex;
   opacity: 0;
   justify-content: center;
-  align-items: center; 
 }
+  
 
 .slider.active {  
   opacity: 1;
@@ -294,7 +298,6 @@ ul {
 
 
 .info{
-  margin: auto;
   width: 70%;
   font-size: 32px;
   line-height: 1.3em;

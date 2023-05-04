@@ -1,7 +1,7 @@
 @media (max-width: 2200px) { 
 
     .info {
-        width: 50%;
+        width: 70%;
         font-size: 28px;
         line-height: 1.3em;
     }
@@ -9,13 +9,12 @@
 
 
 
-@media (max-width: 1700px) {
+@media (max-width: 1900px) {
 
    
 
     .info {
-        width: 50%;
-        font-size: 26px;
+        font-size: 25px;
         line-height: 1.3em;
     }
 
@@ -29,9 +28,8 @@
 
 
     .info {
-        width: 50%;
-        font-size: 24px;
-        line-height: 1.3em;
+        width: 60%;
+        font-size: 23px;
     }
 
     .title {
@@ -67,8 +65,7 @@
 
     .info {
         width: 50%;
-        font-size: 22px;
-        line-height: 1.3em;
+        font-size: 20px;
     }
 
     .title {
@@ -97,12 +94,13 @@
 
     .info {
         width: 50%;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.3em;
     }
 
     .title {
-        font-size: 35px;
+        font-size: 32px;
+        line-height: 1.3em;
     }
 
     .logoAda {
@@ -118,16 +116,19 @@
 
 @media (max-width: 970px) {
 
-   
+   body{
+    overflow-x: hidden;
+   }
 
     .info {
         width: 50%;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.3em;
     }
 
     .title {
-        font-size: 35px;
+        font-size: 30px;
+        line-height: 1.3em;
     }
 
     .logoAda {
@@ -137,6 +138,10 @@
     .nav-link {
         margin: 0 20px;
         font-size: 20px;
+    }
+
+    .footer{
+        height: 1000px;
     }
 }
 
@@ -167,14 +172,9 @@
         font-size: 15px;
     }
 
-    .footer {
-        box-sizing: border-box;
-        background-color: var(--headerColor);
-        width: 100%;
-        height: 300px;
-        position: relative;
-        bottom: 0;
-        z-index: 3;
+    .footer {        
+        height: 500px;
+        
     }
 
     .social {
@@ -245,13 +245,7 @@
 
 
     .footer {
-        box-sizing: border-box;
-        background-color: var(--headerColor);
-        width: 100%;
-        height: 300px;
-        position: relative;
-        bottom: 0;
-        z-index: 3;
+        height: 500px;
         padding: 20px;
     }
 
@@ -281,6 +275,11 @@
         align-items: center;
         margin: auto;
     }
+    
+    .credit{
+        left: 0;
+        width: 100%;
+    }
 
 
 
@@ -300,8 +299,12 @@
 
     .info {
         width: 50%;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 1.1em;
+    }
+
+    .p-ada{
+        height: 400px;
     }
 
     .title {
@@ -336,14 +339,8 @@
 
 
     .footer {
-        box-sizing: border-box;
-        background-color: var(--headerColor);
-        width: 100%;
-        height: 300px;
-        position: relative;
-        bottom: 0;
-        z-index: 3;
-        padding: 20px;
+        height: 600px;
+        padding: 15px;
     }
 
     .social {
