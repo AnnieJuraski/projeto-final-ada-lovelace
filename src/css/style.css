@@ -148,7 +148,6 @@ ul {
   justify-content: center;
   z-index: 2;
   height: auto;
-  border: 2px solid saddlebrown;
   position: relative;
 }
 
@@ -165,7 +164,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid pink;
 }
 
 .conteudo{
