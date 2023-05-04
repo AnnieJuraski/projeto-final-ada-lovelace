@@ -147,10 +147,12 @@ ul {
   display: flex;
   justify-content: center;
   z-index: 2;
+  height: 400px;
 }
 
 .p-ada{
   margin: auto;
+  height: 600px;
 }
 
 .wrapper{   
