@@ -169,7 +169,6 @@ ul {
 .conteudo{
 
   width: 100%;
-  box-sizing: border-box;
   position: relative;
   padding: 0;
   background-color: var(--bgColor);
@@ -368,10 +367,10 @@ a {
 }
 
 .footer-container{
+  margin: auto;
   display: flex;
-  box-sizing: border-box;
   justify-content: space-between;  
-  width: 100%;
+  width: 95%;
   height: 100%;  
   padding: 50px;
 
@@ -379,7 +378,6 @@ a {
 
 .social {
   right: 60px;
-  position: relative;
 }
 
 .about {
@@ -399,15 +397,14 @@ a {
 .icones-container {
   display: flex;
   flex-direction: row;
-  top: 20px;
+  top: 20px;  
   gap: 30px;
-  box-sizing: border-box;
 }
 
 
 .link {
   color: var(--textColor);
-  position: relative;
+  position: relative;  
   top: 20px;
   box-sizing: border-box; 
   transition: color 0.01s ease-in-out, transform 0.6s ease-in-out;  
