@@ -26,7 +26,6 @@ function setActiveSlider(index) {
 
 function nextSlider () {
   const nextIndex = (activeIndex + 1);
-  const prevIndex = (activeIndex - 1); 
 
   sliders[activeIndex].classList.add('prev');
   sliders[activeIndex].classList.remove('active');  
@@ -41,8 +40,7 @@ function nextSlider () {
 }
 
 
-function prevSlider () {
-  const nextIndex = (activeIndex + 1);
+function prevSlider () { 
   const prevIndex = (activeIndex - 1);
  
   sliders[activeIndex].classList.add('next');
