@@ -24,6 +24,12 @@
   --glow: rgba(0, 0, 0, 0);
 }
 
+
+
+
+*{
+  transition: 0.8s linear;
+}
 html, body { 
   height: 100%;
   width: 100%;
