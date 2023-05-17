@@ -1,24 +1,32 @@
 <h1>Projeto final Mais Mulheres Em Tech - Potência Feminina/Womakers Code </h1>
 <br>
 <br>
-<p> Projeto desenvolvido como projeto final do curso de capacitação Mais Mulheres em Tech, oferecido pela Womakers Code. O objetivo foi escolher uma mulher importante na área da tecnologia e fazer um site sobre ela. Eu escolhi a primeira programadora da história, Ada Lovelace<p>
+ Projeto desenvolvido como projeto final do curso de capacitação Mais Mulheres em Tech, oferecido pela Womakers Code. O objetivo foi escolher uma mulher importante na área da tecnologia e fazer um site sobre ela. Eu escolhi a primeira programadora da história, Ada Lovelace
+<br>
+ This project was developed as the Final Project of the course "Mais Mulheres em Tech", offered by Womakers Code. The goal was choose a woman that was important in the tech area and creat a web site about her. I chose the first programmer of history, Ada Lovelace.
 <br>
 <br>
 <h2>Layout</h2>
 <br>
-Pensei nesse projeto e fiz um protótipo de baixa fidelidade no Canvas. Então aos poucos fui melhorando ele até chegar no resultado final
+Pensei nesse projeto e fiz um protótipo de baixa fidelidade no Canvas. Então aos poucos fui melhorando ele até chegar no resultado final.
+<br>
+I created a low fidelity prototype on Canvas based on my first thoughts. As I was building the site, I had new ideas and improved  it until I achieved the final result.
 <br>
 <br>
 <br>
 <h2>HTML</h2>
 <br>
-No HTML estruturei o site em 3 seções: FGooter, conteúdo/main e header. Adicionei classes para criar um slider de informações com JS puro.
+No HTML estruturei o site em 3 seções: header, conteúdo/main e footer. Adicionei classes para criar um slider de informações com JS puro.
+<br>
+Using HTML I structured the site based on 3 sections: header, content/main and footer. Then I created class in order to create a slider with vanilla JS.
 <br>
 <br>
 <br>
 <h2>CSS</h2>
 <br>
-Estilizei o site com o tema escuro como padrão, usando variáveis do CSS para realizar a mudança de tema, ao clicar no botão usando JavaScript. Criei um CSS para responsividade do site e outro para resetar as configurações do navegador.
+Estilizei o site com o tema escuro como padrão, usando variáveis do CSS para realizar a mudança de tema, ao clicar no botão usando JavaScript. Também com CSS crei a responsividade do site.
+<br>
+I styled the site with dark-theme as default, using CSS variables to change theme, by clicking the toggle button. For that I used JS. Also created a CSS for responsiveness.
 <br>
 <br>
 <br>
@@ -34,5 +42,17 @@ Também criei uma lógica de identificar o botão de índice clicado, calcular a
 <br>
 <br>
 Para a galeria optei por uma abordagem diferente, sendo a navegação exclusivamente feita pelos botões, utilizando o JS para adicionar classes que deixariam a imagem visível, através da subtituição no CSS de display:none por display:block.
+<br>
+<br>
+<br>
+The most challenging. I created a logic to store the chosen theme in the Local Storage and created a function so that when the user clicks on the #toggle div, the tame changes. Also created two effects for cahnge of content, on for the bibliography and the other for the gallery.
+<br>
+<br>
+Also created a logic to identify the index button clicked, then calculate the difference between the current active index and the clicked button so that is applies the nextSlider or prevSlide function a certain amount of times
+<br>
+<br>
+For the gallery I tried a idfferent approach. The navigation is made only with the index buttons, using JS to add and remove "active class", which makes the image visible.
+
+
 
 
