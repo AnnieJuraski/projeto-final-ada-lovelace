@@ -3,12 +3,14 @@
 <br>
  Projeto desenvolvido como projeto final do curso de capacitação Mais Mulheres em Tech, oferecido pela Womakers Code. O objetivo foi escolher uma mulher importante na área da tecnologia e fazer um site sobre ela. Eu escolhi a primeira programadora da história, Ada Lovelace
 <br>
+<br>
  This project was developed as the Final Project of the course "Mais Mulheres em Tech", offered by Womakers Code. The goal was choose a woman that was important in the tech area and creat a web site about her. I chose the first programmer of history, Ada Lovelace.
 <br>
 <br>
 <h2>Layout</h2>
 <br>
 Pensei nesse projeto e fiz um protótipo de baixa fidelidade no Canvas. Então aos poucos fui melhorando ele até chegar no resultado final.
+<br>
 <br>
 I created a low fidelity prototype on Canvas based on my first thoughts. As I was building the site, I had new ideas and improved  it until I achieved the final result.
 <br>
@@ -18,6 +20,7 @@ I created a low fidelity prototype on Canvas based on my first thoughts. As I wa
 <br>
 No HTML estruturei o site em 3 seções: header, conteúdo/main e footer. Adicionei classes para criar um slider de informações com JS puro.
 <br>
+<br>
 Using HTML I structured the site based on 3 sections: header, content/main and footer. Then I created class in order to create a slider with vanilla JS.
 <br>
 <br>
@@ -25,6 +28,7 @@ Using HTML I structured the site based on 3 sections: header, content/main and f
 <h2>CSS</h2>
 <br>
 Estilizei o site com o tema escuro como padrão, usando variáveis do CSS para realizar a mudança de tema, ao clicar no botão usando JavaScript. Também com CSS crei a responsividade do site.
+<br>
 <br>
 I styled the site with dark-theme as default, using CSS variables to change theme, by clicking the toggle button. For that I used JS. Also created a CSS for responsiveness.
 <br>
@@ -42,6 +46,8 @@ Também criei uma lógica de identificar o botão de índice clicado, calcular a
 <br>
 <br>
 Para a galeria optei por uma abordagem diferente, sendo a navegação exclusivamente feita pelos botões, utilizando o JS para adicionar classes que deixariam a imagem visível, através da subtituição no CSS de display:none por display:block.
+<br>
+<br>
 <br>
 <br>
 <br>
