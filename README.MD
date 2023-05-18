@@ -7,6 +7,9 @@
  This project was developed as the Final Project of the course "Mais Mulheres em Tech", offered by Womakers Code. The goal was choose a woman that was important in the tech area and creat a web site about her. I chose the first programmer of history, Ada Lovelace.
 <br>
 <br>
+Acesse através do link: https://anniealves.github.io/projeto-final-ada-lovelace/
+<br>
+<br>
 <h2>Layout</h2>
 <br>
 Pensei nesse projeto e fiz um protótipo de baixa fidelidade no Canvas. Então aos poucos fui melhorando ele até chegar no resultado final.
